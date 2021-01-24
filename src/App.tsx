@@ -5,6 +5,7 @@ import LoginPages from './LoginPages';
 import LoginImg from './LoginImg'
 import LoginStd from './LoginStd';
 import LoginSimplePage from './LoginSimplePage';
+import LoginGrid from './LoginGrid';
 
 const App: React.FC = () => {
     return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
                     <Route path="/loginimg" component={LoginImg} />
                     <Route path="/loginstd" component={LoginStd} />
                     <Route path="/simplelogin" component={LoginSimplePage} />
+                    <Route path="/logingrid" component={LoginGrid} />
                     <Route exaxt path="/" render={() => (
                         <p>start page</p>
                     )} />
